@@ -1,4 +1,5 @@
 - Added http://127.0.0.1:8000/admin/
+- migration of model 'Jobs' done
 - Added http://127.0.0.1:8000/jobs/
         -> And http://127.0.0.1:8000/jobs/{{job_id}] e.g http://127.0.0.1:8000/jobs/1
 - Added layout.html and templates structure
