@@ -1,0 +1,10 @@
+{% extends "layout.html" %}
+
+{% block bodyblock %}
+<p>find jobs</p>
+{% for job in jobs %}
+<p>{{job.title}}</p>
+<p>test</p>
+<a href="{% url 'job_detail' job.id %}">click to view job detail</a>
+{% endfor %}
+{% endblock %}
